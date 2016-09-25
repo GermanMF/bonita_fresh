@@ -1,0 +1,86 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+#fondo{
+  background: url(../img/zarzamora2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+    /*max-height: 100%;
+    max-width: 100%;*/
+  z-index: -3;    
+}
+
+.flex{
+  display:flex;
+}
+
+.ccont{
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/*.znav{
+  z-index:1;
+}
+
+.ztext{
+  z-index: 2;
+}*/
+.ctext{
+  color:#FFDC00;
+}
+.hcont{
+  height: 70%;
+}
+
+.no-shadow{
+  box-shadow: none;
+}
+
+.logo{
+  height: 100%;
+  width: 25%;
+}
+
+.mtop{
+  margin-top: 1.5%;
+}
+
+.timg{
+  width: 150px;
+}
+
+@media (min-width:320px) { 
+  .timg{
+    width: 130px;
+  } 
+}
+@media (min-width:481px) { 
+  .timg{
+   width: 150px;
+ }
+}
+ @media (min-width:641px) { 
+  .timg{
+    width: 180px;
+  }
+}
+@media (min-width:961px) {
+  .timg{
+    width: 220px;
+  }
+}
+@media (min-width:1025px) { 
+  .timg{
+    width: 240px;
+  }
+}
+@media (min-width:1281px) { 
+  .timg{
+    width: 260px;
+  }
+}
