@@ -4,7 +4,7 @@
 }
 
 #fondo{
-  background: url(../img/zarzamora2.jpg) no-repeat center center fixed;
+  background: url(../img/zarzamoras26.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -30,8 +30,21 @@
 .ztext{
   z-index: 2;
 }*/
+
+.side-nav >li > a
+{
+  color:#ffea00!important;
+}
+
+
+li > a{
+  color:#2e7d32!important;
+  font-weight: bold;
+  /*font-size: 200%;*/
+}
+
 .ctext{
-  color:#FFDC00;
+  color:#2e7d32 ;
 }
 .hcont{
   height: 70%;
