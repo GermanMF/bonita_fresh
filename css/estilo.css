@@ -10,18 +10,18 @@
   width: 100%;
     /*max-height: 100%;
     max-width: 100%;*/
-  z-index: -3;    
-}
+    z-index: -3;    
+  }
 
-.flex{
-  display:flex;
-}
+  .flex{
+    display:flex;
+  }
 
-.ccont{
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
+  .ccont{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
 
 /*.znav{
   z-index:1;
@@ -29,71 +29,105 @@
 
 .ztext{
   z-index: 2;
-}*/
+  }*/
 
-.side-nav >li > a
-{
-  color:#ffea00!important;
-}
+  #sidenav-overlay{
+    background-color: rgba(255,255,255,0.8);
+  }
 
+  .side-nav >li > a
+  {
+    color:#ffea00!important;
+  }
 
-li > a{
-  color:#2e7d32!important;
-  font-weight: bold;
-  /*font-size: 200%;*/
-}
+  li > a:hover{
+    color:#311b92!important;
+  }
+  li > a{
+    color:#2e7d32!important;
+    font-weight: bold;
+    /*font-size: 200%;*/
+  }
+  .fbig{
+    font-size: 200%;
+  }
 
-.ctext{
-  color:#2e7d32 ;
-}
-.hcont{
-  height: 70%;
-}
+  .fbold{
+    font-weight: bold;
+  }
 
-.no-shadow{
-  box-shadow: none;
-}
+  .ctext{
+    color:#311b92 ;
+  }
 
-.logo{
-  height: 100%;
-  width: 25%;
-}
+  .tshadow{
+    text-shadow: 1px 1px #fbc02d, -1px -1px #2e7d32;
+  }
 
-.mtop{
-  margin-top: 1.5%;
-}
+  .hcont{
+    height: 70%;
+  }
 
-.timg{
-  width: 150px;
-}
+  .no-shadow{
+    box-shadow: none;
+  }
 
-@media (min-width:320px) { 
+  .logo{
+    height: 100%;
+    width: 25%;
+  }
+
+  .mtop{
+    margin-top: 1.5%;
+  }
+
   .timg{
-    width: 130px;
-  } 
+    width: 150px;
+  }
+
+  @media (min-width:320px) { 
+    .timg{
+      width: 130px;
+    }
+    .fbig{
+      font-size: 100%;
+    } 
+  }
+  @media (min-width:481px) { 
+    .timg{
+     width: 150px;
+   }
+   .fbig{
+    font-size: 120%;
+  }
 }
-@media (min-width:481px) { 
-  .timg{
-   width: 150px;
- }
-}
- @media (min-width:641px) { 
+@media (min-width:641px) { 
   .timg{
     width: 180px;
+  }
+  .fbig{
+    font-size: 140%;
   }
 }
 @media (min-width:961px) {
   .timg{
     width: 220px;
   }
+  .fbig{
+    font-size: 160%;
+  }
 }
 @media (min-width:1025px) { 
   .timg{
     width: 240px;
   }
+
 }
 @media (min-width:1281px) { 
   .timg{
     width: 260px;
+  }
+  .fbig{
+    font-size: 200%;
   }
 }
