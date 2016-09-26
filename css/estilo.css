@@ -13,8 +13,52 @@
     z-index: -3;    
   }
 
+  div.row.container.grey.lighten-2{
+    background-color: rgba(255,255,255,0.4) !important;
+  }
+
+  .iSeccion1{
+    background: url(../img/zarzamora26.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    z-index: -3;
+    margin-top: -2%;
+  }
+
+  p.col.l12.pChMed{
+    padding-bottom: 3%;
+  }
+
+  .oColor{
+    z-index: 2;
+  }
+
   .flex{
     display:flex;
+  }
+
+  .fright{
+    justify-content: flex-end; 
+  }
+
+  .pRightMed{
+    padding-right: 15%;
+  }
+
+
+  .hMed{
+    height: 7%;
+  }
+
+  .fcenter
+  {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    /*align-items: center;
+    flex-wrap: nowrap;*/
   }
 
   .ccont{
@@ -22,7 +66,13 @@
     align-items: center;
     position: relative;
   }
-
+  .calign{
+    text-align: center;
+  }
+  .zMarginSides {
+    margin-right: 0;
+    margin-left: 0;
+  }
 /*.znav{
   z-index:1;
 }
@@ -35,8 +85,19 @@
     background-color: rgba(255,255,255,0.8);
   }
 
-  .side-nav >li > a
-  {
+
+ /* .imgHeight > .l4{
+    height: 30%;
+  }
+  */
+  .tjustify{
+    text-align: justify;
+    /*text-justify:inter-word;*/
+  }
+
+
+
+  .side-nav >li > a{
     color:#ffea00!important;
   }
 
@@ -51,7 +112,9 @@
   .fbig{
     font-size: 200%;
   }
-
+  .fmedium{
+    font-size: 180%;
+  }
   .fbold{
     font-weight: bold;
   }
@@ -61,7 +124,11 @@
   }
 
   .tshadow{
-    text-shadow: 1px 1px #fbc02d, -1px -1px #2e7d32;
+    text-shadow: 1px 1px #FFDC00, -1px -1px #ffea00;
+  }
+
+  .wcont{
+    width: 100%;
   }
 
   .hcont{
@@ -80,9 +147,36 @@
   .mtop{
     margin-top: 1.5%;
   }
+  
+  .mtitle{
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
 
   .timg{
     width: 150px;
+  }
+
+  .psides{
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .bText{
+    font-weight: 500;
+  }
+
+  .pGde{
+    padding-top: 20%;
+    padding-top: 50%;
+  }
+
+  .pMed{
+    padding-bottom: 5%;
+  }
+
+  .pBotCh{
+    padding-bottom:1%;
   }
 
   @media (min-width:320px) { 
@@ -92,6 +186,18 @@
     .fbig{
       font-size: 100%;
     } 
+    .fcenter{
+      padding-top: 10%;
+      width: 80%;
+    }
+    .pGde{
+      padding-top: 25%;
+      padding-bottom: 40%;
+    }
+    .pMed{
+      padding-top: 20%;
+      padding-bottom: 10%;
+    }
   }
   @media (min-width:481px) { 
     .timg{
@@ -99,6 +205,9 @@
    }
    .fbig{
     font-size: 120%;
+  }
+  .pGde{
+    padding-bottom: 30%;
   }
 }
 @media (min-width:641px) { 
@@ -108,6 +217,9 @@
   .fbig{
     font-size: 140%;
   }
+  .pGde{
+    padding-bottom: 50%;
+  }
 }
 @media (min-width:961px) {
   .timg{
@@ -116,10 +228,25 @@
   .fbig{
     font-size: 160%;
   }
+  .pGde{
+    padding-bottom: 40%;
+  }
+  .pMed{
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
 }
 @media (min-width:1025px) { 
   .timg{
     width: 240px;
+  }
+  .fcenter{
+    padding-top: 5%;
+    width: 50%;
+  }
+  .pGde{
+    padding-top: 10%;
+    padding-bottom: 30%;
   }
 
 }
@@ -130,4 +257,34 @@
   .fbig{
     font-size: 200%;
   }
+  .pGde{
+    padding-top: 15%;
+    padding-bottom: 30%;
+  }
+  .pMed{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+}
+
+@media(min-width: 2000px){
+  .fcenter{
+    width: 20%;
+  }
+  .pGde{
+    padding-top: 7%;
+    padding-bottom: 15%;
+  }
+  .zMarginLeft{
+    margin-left: 0;
+  }
+  .zMarginRight{
+    margin-right: 0;
+  }
+  
+  .pMed{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
 }
