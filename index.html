@@ -19,23 +19,25 @@
     <div class="navbar-fixed">  
       <nav class="transparent no-shadow">
         <div class="nav-wrapper container">
-          <a href="#" class="brand-logo" ><img id="bonita" class="timg mtop" src="img/bonita2.png" alt="Las mejores zarzamoras del mundo."/></a>
+          <a href="#inicio" class="brand-logo" ><img id="bonita" class="timg mtop" src="img/bonita2.png" alt="Las mejores zarzamoras del mundo."/></a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
-          <ul class="right hide-on-med-and-down cnav">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#somos">Somos</a></li>
-            <li><a href="#certificacion">Certificaciones</a></li>
-            <li><a href="#historia">Historia</a></li>
-            <li><a href="#producto">Producto</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+          <ul class="right hide-on-med-and-down">
+            <!-- <li><a href="#inicio">Inicio</a></li> -->
+            <li class="select"><a href="#somos">Somos</a></li>
+            <li class="select"><a href="#certificacion">Certificaciones</a></li>
+            <li class="select"><a href="#historia">Historia</a></li>
+            <li class="select"><a href="#producto">Producto</a></li>
+            <li class="select"><a href="#contacto">Contacto</a></li>
           </ul>
           <ul class="side-nav green darken-3 yellow-text text-accent-3" id="mobile-demo">
-            <li class="deep-purple darken-3"><div class="flex fright hMed">
-              <b class="pRightMed">MENU</b><i class="material-icons white-text" style=" line-height: inherit;
+            <li class="deep-purple darken-3 row">
+              <div class="flex fright">
+                <p class=""></p>
+                <b class="">MENU</b> <i class="material-icons white-text">cancel</i> 
+              <!-- style=" line-height: inherit;
               font-size: x-large;
-              padding-right: 5%;">cancel</i>
+              padding-right: 5%;" -->
             </div></li>
-            <li><a href="#inicio">Inicio</a></li>
             <li><a href="#somos">Somos</a></li>
             <li><a href="#certificacion">Certificaciones</a></li>
             <li><a href="#historia">Historia</a></li>
@@ -52,8 +54,8 @@
   </section>
   <!-- Termina sección de inicio -->
   <!-- Inicia sección de certificados -->
-  <section class="green darken-1 psides pBotSect"><a name="certificacion"></a>
-    <div class="row container">
+  <section class="green darken-1 psides pBotSect" id="certificacion"><a name="certificacion"></a>
+    <div class="row container abajo">
       <div class="col s12 l12">
         <p class="fbold fmedium calign mtitle amber-text text-accent-3">Normas y certificaciones</p>
       </div>
@@ -79,7 +81,7 @@
     </div>
   </section>
   <!-- Termina sección de certificados -->
-  <section class="iSeccion1 psides"> <a name="historia"></a>
+  <section class="iSeccion1 psides" id="historia"> <a name="historia"></a>
     <div class="row container grey lighten-2 ">
       <div class="col s12 l12">
         <p class="fbold fmedium calign mtitle purple-text text-darken-3">Historia</p>
@@ -94,9 +96,9 @@
     </div>
   </div>
 </section>
-<section> <a name="somos">somos</a></section>
-<section> <a name="producto">producto</a></section>
-<section> <a name="contacto">contacto</a></section>
+<section id="somos"> <a name="somos">somos</a></section>
+<section id="producto"> <a name="producto">producto</a></section>
+<section id="contacto"> <a name="contacto">contacto</a></section>
 
 
 <!-- Importación y creación de scripts -->
@@ -106,14 +108,55 @@
 <script>
   $( document ).ready(function(){
     $(".button-collapse").sideNav({
-      menuWidth: 220
+      menuWidth: 220,
+      closeOnClick: true
     });
+    
+   //  $(function() {
+   //   $(".select").click(function() {
+   //    $("li").removeClass("active");
+   //    $(this).addClass("active");
+   //  });
+   // });
   });
   $("#js-rotating").Morphext({
     animation: "fadeIn",
     separator: ",",
     speed: 3000
   });
+
+  var sections = $('section')
+  , nav = $('nav')
+  , nav_height = nav.outerHeight();
+
+  $(window).on('scroll', function () {
+    var cur_pos = $(this).scrollTop();
+
+    sections.each(function() {
+      var top = $(this).offset().top - nav_height,
+      bottom = top + $(this).outerHeight();
+
+      if (cur_pos >= top && cur_pos <= bottom) {
+        nav.find('a').removeClass('active');
+        sections.removeClass('active');
+
+        $(this).addClass('active');
+        nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+      }
+    });
+  });
+
+  nav.find('a').on('click', function () {
+    var $el = $(this)
+    , id = $el.attr('href');
+
+    $('html, body').animate({
+      scrollTop: $(id).offset().top - nav_height
+    }, 500);
+
+    return false;
+  });
+
 </script>
 </body>
 </html>
