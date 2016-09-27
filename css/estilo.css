@@ -12,14 +12,14 @@
     max-width: 100%;*/
     z-index: -3;    
   }
-  .active{
+  .select.active > a{
     color: #311b92!important;
   }
 
   
 
   div.row.container.grey.lighten-2{
-    background-color: rgba(255,255,255,0.4) !important;
+    background-color: rgba(255,255,255,0.6) !important;
   }
 
   .iSeccion1{
@@ -172,6 +172,11 @@
     padding-left: 15%;
   }
 
+  p.col.l12.pChMed.pText {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
   .bText{
     font-weight: 500;
   }
@@ -183,6 +188,10 @@
 
   .pMed{
     padding-bottom: 5%;
+  }
+
+  .col.s12.pMed {
+    padding-bottom: 10%;
   }
 
   .pBotCh{
@@ -209,8 +218,11 @@
       padding-bottom: 10%;
     }
     .psides{
-      padding-right: 1%;
-      padding-left: 1%;
+      padding-right: 0%;
+      padding-left: 0%;
+    }
+    .mTopNeg{
+      margin-top: -6%;
     }
 
   }
@@ -227,6 +239,9 @@
   .psides{
     padding-right: 15%;
     padding-left: 15%;
+  }
+  .mTopNeg{
+    margin-top: -4%;
   }
 }
 @media (min-width:641px) { 
@@ -256,6 +271,9 @@
   .pMed{
     padding-top: 20%;
     padding-bottom: 10%;
+  }
+  .mTopNeg{
+    margin-top: -3%;
   }
 }
 @media (min-width:1025px) { 
@@ -315,6 +333,9 @@
   .psides{
     padding-right: 30%;
     padding-left: 30%;
+  }
+  .mTopNeg{
+    margin-top: -1%;
   }
 
 }
