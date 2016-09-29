@@ -1,3 +1,10 @@
+@import url(../fonts/Satisfy-Regular.ttf);
+
+@font-face{
+  font-family: Kursiva;
+  src: url(../fonts/Satisfy-Regular.ttf);
+}
+
 *{
   margin:0;
   padding: 0;
@@ -8,65 +15,63 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
-    /*max-height: 100%;
-    max-width: 100%;*/
-    z-index: -3;    
-  }
-  .select.active > a{
-    color: #311b92!important;
-  }
+  z-index: -3;    
+}
 
-  
+.iSeccion1{
+  background: url(../img/zarzamora26.jpg) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  z-index: -3;
+}
 
-  div.row.container.grey.lighten-2{
-    background-color: rgba(255,255,255,0.6) !important;
-  }
-
-  .iSeccion1{
-    background: url(../img/zarzamora26.jpg) no-repeat center center fixed;
-    background-size: cover;
-    width: 100%;
-    z-index: -3;
-  }
-
-  .row.container.abajo {
-    margin-bottom: 0;
-  }
-
-  p.col.l12.pChMed{
-    padding-bottom: 3%;
-  }
-
-  .oColor{
-    z-index: 2;
-  }
-
-  .flex{
-    display:flex;
-  }
-
-  .fright{
-    justify-content: flex-end;
-    justify-content: space-between;
-    justify-content: space-around;
-  }
-
-  .pRightMed{
-    padding-right: 15%;
-  }
+.select.active > a{
+  color: #311b92!important;
+}
 
 
-  .hMed{
-    height: 7%;
-  }
+div.row.container.grey.lighten-2{
+  background-color: rgba(255,255,255,0.6) !important;
+}
 
-  .fcenter
-  {
-    width: 40%;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 5%;
-    padding-top: 5%;
+.row.container.abajo {
+  margin-bottom: 0;
+}
+
+p.col.l12.pChMed{
+  padding-bottom: 3%;
+}
+
+.z2{
+  z-index: 2;
+}
+
+.flex{
+  display:flex;
+}
+
+.fright{
+  justify-content: flex-end;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.pRightMed{
+  padding-right: 15%;
+}
+
+
+.hMed{
+  height: 7%;
+}
+
+.fcenter
+{
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  padding-top: 5%;
     /*align-items: center;
     flex-wrap: nowrap;*/
   }
@@ -123,7 +128,7 @@
     font-size: 200%;
   }
   .fmedium{
-    font-size: 180%;
+    font-size: 200%;
   }
   .fbold{
     font-weight: bold;
@@ -135,6 +140,10 @@
 
   .tshadow{
     text-shadow: 1px 1px #FFDC00, -1px -1px #ffea00;
+  }
+
+  .tcursiva{
+    font-family: "Kursiva";
   }
 
   .wcont{
@@ -153,18 +162,22 @@
     height: 100%;
     width: 25%;
   }
-
   .mtop{
     margin-top: 1.5%;
   }
   
+  .pChMed{
+    padding-bottom: 5%;
+  }
+
   .mtitle{
     margin-top: 15%;
     margin-bottom: 5%;
   }
 
   .timg{
-    width: 150px;
+    width: 20%;
+    
   }
 
   .psides{
@@ -175,15 +188,19 @@
   p.col.l12.pChMed.pText {
     padding-left: 7%;
     padding-right: 7%;
-}
+  }
 
   .bText{
     font-weight: 500;
   }
 
+
   .pGde{
     padding-top: 20%;
-    padding-top: 50%;
+  }
+
+  .pGdePlus{
+    padding-top: 20%; 
   }
 
   .pMed{
@@ -198,7 +215,13 @@
     padding-bottom:1%;
   }
 
+  .bResponsive{
+    width: 100%;
+    padding-top: 5%;
+  }
+
   @media (min-width:320px) { 
+
     .timg{
       width: 130px;
     }
@@ -222,7 +245,14 @@
       padding-left: 0%;
     }
     .mTopNeg{
-      margin-top: -6%;
+      margin-top: -8%;
+    }
+
+    .mImage{
+      width: 220%;
+    }
+    .col.s6.pMed.wMax {
+      width: 100%;
     }
 
   }
@@ -243,6 +273,10 @@
   .mTopNeg{
     margin-top: -4%;
   }
+  .col.s6.pMed.wMax {
+    width: 100%;
+  }
+
 }
 @media (min-width:641px) { 
   .timg{
@@ -257,6 +291,14 @@
   .hMed{
     height: 5%;
   }
+
+  .pGde{
+    padding-top: 30%;
+  }
+  .col.s6.pMed.wMax {
+    width: 100%;
+  }
+
 }
 @media (min-width:961px) {
   .timg{
@@ -275,8 +317,18 @@
   .mTopNeg{
     margin-top: -3%;
   }
+  .col.s6.pMed.wMax {
+    width: 50%;
+  }
+  .pGdePlus{
+    padding-top: 5%; 
+  }
+  .mImage{
+    width: 100%;
+  }
+
 }
-@media (min-width:1025px) { 
+@media (min-width:1024px) { 
   .timg{
     width: 240px;
   }
@@ -289,15 +341,18 @@
     padding-bottom: 30%;
   }
   .psides{
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .timg{
+    width: 20%;
+  }
+  .pGdePlus{
+    padding-top: 2%; 
   }
 
 }
-@media (min-width:1281px) { 
-  .timg{
-    width: 260px;
-  }
+@media (min-width:1281px) {
   .fbig{
     font-size: 200%;
   }
@@ -309,12 +364,47 @@
     padding-top: 10%;
     padding-bottom: 10%;
   }
+  .mImage{
+    width: 80%;
+  }
+  .fcenter{
+    padding-top: 0%;
+    width: 30%;
+  }
+}
+
+@media (min-width: 1440px){
+  .mImage{
+    width: 75%;
+  }
+}
+
+@media(min-width: 1600px){
+  .psides{
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+  p, a{
+    font-size: 18px;
+  }
+  .mImage{
+    width: 100%;
+  }
+}
+
+@media (min-width: 1700px){
+  p, a{
+  font-size: 20px;
+}
+}
+
+@media (min-width: 1850px){
+  p, a{
+  font-size: 22px;
+}
 }
 
 @media(min-width: 2000px){
-  .fcenter{
-    width: 20%;
-  }
   .pGde{
     padding-top: 7%;
     padding-bottom: 15%;
@@ -330,12 +420,46 @@
     padding-top: 5%;
     padding-bottom: 5%;
   }
-  .psides{
-    padding-right: 30%;
-    padding-left: 30%;
+
+  .mTopNeg{
+    margin-top: -1%;
+  }
+
+  .mImage{
+    width: 80%;
+  }
+
+}
+
+@media (min-width: 2200px) {
+  p, a{
+    font-size: 24px;
+  }
+}
+
+@media(min-width: 2500px ) and (max-height: 2600px){
+
+  .pGde{
+    padding-top: 7%;
+    padding-bottom: 15%;
+  }
+  .zMarginLeft{
+    margin-left: 0;
+  }
+  .zMarginRight{
+    margin-right: 0;
+  }
+  
+  .pMed{
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .mTopNeg{
     margin-top: -1%;
+  }
+
+  .mImage{
+    width: 70%;
   }
 
 }
