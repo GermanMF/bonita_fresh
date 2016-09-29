@@ -10,6 +10,20 @@
   padding: 0;
 }
 
+.preloader-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#e8f5e9;
+  
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;  
+}
+
 #fondo{
   background: url(../img/zarzamoras26.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -17,6 +31,22 @@
   width: 100%;
   z-index: -3;    
 }
+
+.circle {
+
+  list-style-type: disc;
+}
+
+.circle > li > .padMas{
+  padding-top: 2%;
+}
+
+.circle > li > p{
+ padding-top: 0%;
+ font-size: 16px;
+}
+
+
 
 .iSeccion1{
   background: url(../img/zarzamora26.jpg) no-repeat center center fixed;
@@ -40,6 +70,29 @@ div.row.container.grey.lighten-2{
 
 p.col.l12.pChMed{
   padding-bottom: 3%;
+}
+
+.opMas{
+  opacity: 1;
+}
+
+.opMenos{
+  opacity: 0;
+}
+
+.hid{
+  display: none;
+}
+.noHid{
+  display: inherit;
+}
+
+.noPadTop{
+  padding-top: 0;
+}
+
+p.noPadTop {
+  padding-top: 0;
 }
 
 .z2{
@@ -351,6 +404,11 @@ p.col.l12.pChMed{
     padding-top: 2%; 
   }
 
+  .psides2{
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
 }
 @media (min-width:1281px) {
   .fbig{
@@ -394,14 +452,14 @@ p.col.l12.pChMed{
 
 @media (min-width: 1700px){
   p, a{
-  font-size: 20px;
-}
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1850px){
   p, a{
-  font-size: 22px;
-}
+    font-size: 22px;
+  }
 }
 
 @media(min-width: 2000px){
@@ -427,6 +485,11 @@ p.col.l12.pChMed{
 
   .mImage{
     width: 80%;
+  }
+
+  .psides2{
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
 }

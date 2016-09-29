@@ -16,6 +16,21 @@
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
+  <div class="preloader-background">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer  spinner-yellow-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Inicia Sección de inicio -->
   <section  id="fondo">
     <a name="inicio"></a>
@@ -39,166 +54,196 @@
               <div class="flex fright">
                 <p class=""></p>
                 <b class="">MENU</b> <i class="material-icons white-text">cancel</i> 
-              <!-- style=" line-height: inherit;
-              font-size: x-large;
-              padding-right: 5%;" -->
-            </div></li>
-            <li><a href="#somos">Somos</a></li>
-            <li><a href="#certificacion">Certificaciones</a></li>
-            <li><a href="#historia">Historia</a></li>
-            <li><a href="#producto">Producto</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <!-- Termina el menu -->
-    <!-- Inicia Rotación de palabras -->
-    <div class="flex ccont hcont ctext"><h1  class="tshadow tcursiva"><b id="js-rotating" class="fbig">ATRÉVETE,DISFRUTA,VIVE</b></h1></div>
-    <!-- Termina rotación de paabras -->
-  </section>
-  <!-- Termina sección de inicio -->
-  <!-- Inicia sección de certificados -->
-  <section class="green darken-1 psides pChMed" id="somos"> <a name="somos"></a>
-    <div class="row container abajo">
-      <div class="col s12 l12">
-        <h4 class="fbold calign mtitle amber-text text-accent-3">¿Quiénes somos?</h4>
+                <!-- style=" line-height: inherit;
+                font-size: x-large;
+                padding-right: 5%;" -->
+              </div></li>
+              <li><a href="#somos">Somos</a></li>
+              <li><a href="#certificacion">Certificaciones</a></li>
+              <li><a href="#historia">Historia</a></li>
+              <li><a href="#producto">Producto</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <div class="col s6 pMed wMax green-text text-lighten-5 tjustify">
-        <p class="col l12 pChMed">Somos una empresa dedicada a la producción, compra y exportación de zarzamora al mercado de Estados Unidos de Norteamérica, envasada en cajas de plástico de 6 y 12 onzas.</p>
-
-        <p  class="col l12 pChMed"> Además de la exportación, brinda asesoría técnica a los productores en el establecimiento, desarrollo, manejo, producción, programación y control de plagas y enfermedades del cultivo.</p>
-
-        <!-- <p  class="col l12 pChMed green-text text-lighten-5 tjustify">Cuenta con oficinas destinadas al departamento técnico, departamento administrativo, sub estación eléctrica, así como patio de maniobras para la recepción y carga.</p>
-
-        <p  class="col l12 pChMed green-text text-lighten-5 tjustify">Tiene cámara de pre-enfriado que baja la temperatura a cero grados centígrados, cuenta también con cámara de conservación de la fruta para el embarque.</p> -->
-      </div>
-      <div class="col s6"><img src="img/somos.jpg" alt="Equipo de trabajo de Bonita Fresh" class="mImage pGdePlus materialboxed"/></div>
-      <div class="col l12 bResponsive mCh">
-        <p class="calign"><a href="#!" class="mtop waves-effect waves-yellow btn-flat  green-text text-lighten-5" onclick="Materialize.showStaggeredList('#acc')">Ver más</a></p>
-        <ul class="collapsible popout" data-collapsible="accordion" id="acc" >
-          <li style="opacity:0;">
-            <div class="collapsible-header"><i class="material-icons">filter_drama</i><p>Conoce más</p></div>
-            <div class="collapsible-body green-text text-lighten-5 tjustify"><p>Lorem ipsum dolor sit amet.</p></div>
-          </li>
-          <li  style="opacity:0;">
-            <div class="collapsible-header"><i class="material-icons">place</i><p>Misión y Visión</p></div>
-            <div class="collapsible-body green-text text-lighten-5 tjustify"><p>Lorem ipsum dolor sit amet.</p></div>
-          </li>
-          <li style="opacity:0;">
-            <div class="collapsible-header"><i class="material-icons">whatshot</i>Objetivos</div>
-            <div class="collapsible-body green-text text-lighten-5 tjustify"><p>Lorem ipsum dolor sit amet.</p></div>
-          </li>
-        </ul>
-        <div class="col l6"></div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="iSeccion1 psides" id="certificacion"><a name="certificacion"></a>
-  <div class="row container grey lighten-2">
-    <div class="col s12 l12">
-      <h4 class="fbold calign mtitle purple-text text-darken-3">Normas y certificaciones</h4>
-    </div>
-    <div class="col s12 tjustify  grey-text text-darken-4 bText z2">
-      <p class="col l12 pChMed pText">
-        Cumplimos con las normas exigidas por organismos como son: la Junta Local de Sanidad Vegetal, la Secretaría de
-        Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación (SAGARPA), el U.S. Department of Agriculture
-        (USDA), la Food and Drug Adminstration (FDA), con los Reportes de calidad aprobados por Produce Inspectors of
-        America (PIA), la Environmental Protection Agency (EPA), y la Davis Fresh NSF.</p></div>
-        <div class="col l12 flex ">
-         <div class="fcenter zMarginRight">
-          <img src="img/certificado1.jpg" alt="Secretaría de Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación" class="fcenter">
-          <img src="img/certificado2.jpg" alt="U.S. Department of Agriculture" class="fcenter">
+      <!-- Termina el menu -->
+      <!-- Inicia Rotación de palabras -->
+      <div class="flex ccont hcont ctext"><h1  class="tshadow tcursiva"><b id="js-rotating" class="fbig">ATRÉVETE,DISFRUTA,VIVE</b></h1></div>
+      <!-- Termina rotación de paabras -->
+    </section>
+    <!-- Termina sección de inicio -->
+    <!-- Inicia sección de certificados -->
+    <section class="green darken-1 psides pChMed" id="somos"> <a name="somos"></a>
+      <div class="row container abajo">
+        <div class="col s12 l12">
+          <h4 class="fbold calign mtitle amber-text text-accent-3">¿Quiénes somos?</h4>
         </div>
-        <div class="fcenter zMarginSides">
-          <img src="img/certificado5.png" alt="Environmental Protection Agency" class="fcenter pMed">
-          <img src="img/certificado6.png" alt="Davis Fresh" class="fcenter">
+        <div class="col s6 pMed wMax green-text text-lighten-5 tjustify">
+          <p class="col l12 pChMed">Somos una empresa dedicada a la producción, compra y exportación de zarzamora al mercado de Estados Unidos de Norteamérica, envasada en cajas de plástico de 6 y 12 onzas.</p>
+
+          <p  class="col l12 pChMed"> Además de la exportación, brinda asesoría técnica a los productores en el establecimiento, desarrollo, manejo, producción, programación y control de plagas y enfermedades del cultivo.</p>
+
+          <!-- <p  class="col l12 pChMed green-text text-lighten-5 tjustify">Cuenta con oficinas destinadas al departamento técnico, departamento administrativo, sub estación eléctrica, así como patio de maniobras para la recepción y carga.</p>
+    
+          <p  class="col l12 pChMed green-text text-lighten-5 tjustify">Tiene cámara de pre-enfriado que baja la temperatura a cero grados centígrados, cuenta también con cámara de conservación de la fruta para el embarque.</p> -->
         </div>
-        <div class="fcenter zMarginLeft">
-          <img src="img/certificado4.png" alt="Produce Inspectors of America" class="fcenter pGde">
-          <img src="img/certificado3.png" alt="Food and Drug Adminstration" class="fcenter">
+        <div class="col s6"><img src="img/somos.jpg" alt="Equipo de trabajo de Bonita Fresh" class="mImage pGdePlus materialboxed"/></div>
+        <div class="col l12 bResponsive mCh">
+          <p class="calign"><a href="#!" id="bShowDiv" class="mtop waves-effect waves-yellow btn-flat  green-text text-lighten-5">Ver más</a></p>
+          <div class="hid" id="showDiv">
+            <ul class="collapsible popout" data-collapsible="accordion" id="acc">
+              <li class="opMenos menuShow">
+              <div class="collapsible-header"><i class="material-icons">info</i><p>Conoce más</p></div>
+                <div class="collapsible-body green-text text-lighten-5 tjustify"><p>Cuenta con oficinas destinadas al departamento técnico, departamento administrativo, sub estación eléctrica, así como patio de maniobras para la recepción y carga.</p>
+                  <p  class="noPadTop">Tiene cámara de pre-enfriado que baja la temperatura a cero grados centígrados, cuenta también con cámara de conservación de la fruta para el embarque.</p></div>
+                </li>
+                <li  class="opMenos menuShow">
+                  <div class="collapsible-header"><i class="material-icons">zoom_in</i><p>Misión y Visión</p></div>
+                  <div class="collapsible-body green-text text-lighten-5 tjustify">
+                    <h5 class="calign amber-text text-accent-3">Misión</h5>
+                    <p>Ofrecer un producto con estándares de calidad internacional para satisfacer la demanda de un consumidor exigente, mejorando la generación de mayor valor al producto.</p>
+                    <h5 class="calign amber-text text-accent-3">Visión</h5>
+                    <p>Consolidarse como la empresa líder en ventas de la región como la mejor opción para los consumidores, y ser una empresa altamente competitiva en la exportación de zarzamora con calidad reconocida.</p>
+
+                  </div>
+                </li>
+                <li class="opMenos menuShow">
+                  <div class="collapsible-header"><i class="material-icons">thumb_up</i>Objetivos</div>
+                  <div class="collapsible-body green-text text-lighten-5 tjustify">
+                    <ul class="circle">
+                      <li><p class="padMas">Mantener constante la eficiencia administrativa y operativa, al nivel de los clientes en Estados Unidos de Norteamérica y resto del mundo.</p></li>
+                      <li><p> Fortalecer la relación existente con los clientes para brindarles un mejor producto.</p></li>
+                      <li><p>Permanecer a la vanguardia utilizando la tecnología de última generación para facilitar las operaciones y obtener la ventaja de contar con información oportuna.</p></li>
+                      <li><p>Contar con el personal comprometido con los objetivos para brindar soluciones al acontecer diario.</p></li>
+                      <li><p>Mantener el reconocimiento de la marca que identifique claramente el producto en el mercado internacional.</p></li>
+                      <li><p>Mantener actualizados los certificados nacionales e internacionales de calidad.</p></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col l6"></div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Termina sección de certificados -->
-  <section class="green darken-1 psides mTopNeg" id="historia"> <a name="historia"></a>
-    <div class="row container">
-      <div class="col s12 l12">
-        <h4 class="fbold calign mtitle amber-text text-accent-3">Historia</h4>
-      </div>
-      <div class="col s12 pMed" >
-        <p class="col l12 pChMed green-text text-lighten-5 tjustify">La empresa se constituyó en el mes de mayo del año 2010 como una Sociedad de Producción Rural de Responsabilidad Limitada. Surge como respuesta a una necesidad de productores de diversas localidades del municipio de Ario de Rosales con la finalidad de crear una comercializadora calificada para establecer relaciones comerciales para obtener mejores ingresos por su producto.</p>
+    </section>
+    <section class="iSeccion1 psides" id="certificacion"><a name="certificacion"></a>
+      <div class="row container grey lighten-2">
+        <div class="col s12 l12">
+          <h4 class="fbold calign mtitle purple-text text-darken-3">Normas y certificaciones</h4>
+        </div>
+        <div class="col s12 tjustify  grey-text text-darken-4 bText z2">
+          <p class="col l12 pChMed pText">
+            Cumplimos con las normas exigidas por organismos como son: la Junta Local de Sanidad Vegetal, la Secretaría de
+            Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación (SAGARPA), el U.S. Department of Agriculture
+            (USDA), la Food and Drug Adminstration (FDA), con los Reportes de calidad aprobados por Produce Inspectors of
+            America (PIA), la Environmental Protection Agency (EPA), y la Davis Fresh NSF.</p></div>
+            <div class="col l12 flex ">
+             <div class="fcenter zMarginRight">
+              <img src="img/certificado1.jpg" alt="Secretaría de Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación" class="fcenter">
+              <img src="img/certificado2.jpg" alt="U.S. Department of Agriculture" class="fcenter">
+            </div>
+            <div class="fcenter zMarginSides">
+              <img src="img/certificado5.png" alt="Environmental Protection Agency" class="fcenter pMed">
+              <img src="img/certificado6.png" alt="Davis Fresh" class="fcenter">
+            </div>
+            <div class="fcenter zMarginLeft">
+              <img src="img/certificado4.png" alt="Produce Inspectors of America" class="fcenter pGde">
+              <img src="img/certificado3.png" alt="Food and Drug Adminstration" class="fcenter">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Termina sección de certificados -->
+      <section class="green darken-1 psides2 mTopNeg" id="historia"> <a name="historia"></a>
+        <div class="row container">
+          <div class="col s12 l12">
+            <h4 class="fbold calign mtitle amber-text text-accent-3">Historia</h4>
+          </div>
+          <div class="col s12 pMed" >
+            <p class="col l12 pChMed green-text text-lighten-5 tjustify">La empresa se constituyó en el mes de mayo del año 2010 como una Sociedad de Producción Rural de Responsabilidad Limitada. Surge como respuesta a una necesidad de productores de diversas localidades del municipio de Ario de Rosales con la finalidad de crear una comercializadora calificada para establecer relaciones comerciales para obtener mejores ingresos por su producto.</p>
 
-        <p class="col l12 pChMed green-text text-lighten-5 tjustify">De acuerdo a los estatutos legales, la administración de la sociedad está a cargo del  Consejo de Administración, integrado por un Presidente, un Tesorero y un Secretario.</p>
+            <p class="col l12 pChMed green-text text-lighten-5 tjustify">De acuerdo a los estatutos legales, la administración de la sociedad está a cargo del  Consejo de Administración, integrado por un Presidente, un Tesorero y un Secretario.</p>
 
-        <p class="col l12 pChMed green-text text-lighten-5 tjustify">El Consejo  de Vigilancia es nombrado por la asamblea para supervisar la empresa en los aspectos estatuarios y administrativos y está integrado por un Presidente, un Secretario y un Vocal.</p>
-      </div>
-    </div>
-  </section>
+            <p class="col l12 pChMed green-text text-lighten-5 tjustify">El Consejo  de Vigilancia es nombrado por la asamblea para supervisar la empresa en los aspectos estatuarios y administrativos y está integrado por un Presidente, un Secretario y un Vocal.</p>
+          </div>
+        </div>
+      </section>
 
-  <section id="producto"> <a name="producto">producto</a></section>
-  <section id="contacto"> <a name="contacto">contacto</a></section>
+      <section id="producto"> <a name="producto">producto</a></section>
+      <section id="contacto"> <a name="contacto">contacto</a></section>
+      <!-- Importación y creación de scripts -->
+      <script src="js/jquery-3.1.1.js"></script>
+      <script src="js/materialize.min.js"></script>
+      <script src="js/morphext.js"></script>
+      <script>
+        $(document).ready(function () {
+          $(".button-collapse").sideNav({
+            menuWidth: 220,
+            closeOnClick: true
+          });
+        });
+        $('#bShowDiv').click(function(){
+          $('#showDiv').addClass('noHid');
+          $('.menuShow').addClass('opMas');
+          $('.menuShow').removeClass('opMenos');
+          Materialize.showStaggeredList('#acc');
+        });
 
+        $("#js-rotating").Morphext({
+          animation: "fadeIn",
+          separator: ",",
+          speed: 3000
+        });
+      </script>
+      <script>
+        var lastId,
+        topMenu = $("#top-menu"),
+        topMenuHeight = topMenu.outerHeight()+15,
+        menuItems = topMenu.find("a"),
+        scrollItems = menuItems.map(function(){
+          var item = $($(this).attr("href"));
+          if (item.length) { return item; }
+        });
+        menuItems.click(function(e){
+          var href = $(this).attr("href"),
+          offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+          $('html, body').stop().animate({ 
+            scrollTop: offsetTop
+          }, 300);
+          e.preventDefault();
+        });
+        $(window).scroll(function(){
+         var fromTop = $(this).scrollTop()+topMenuHeight;
+         var cur = scrollItems.map(function(){
+           if ($(this).offset().top < fromTop)
+             return this;
+         });
+         cur = cur[cur.length-1];
+         var id = cur && cur.length ? cur[0].id : "";
 
-  <!-- Importación y creación de scripts -->
-  <script src="js/jquery-3.1.1.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/morphext.js"></script>
-  <script>
-    $(document).ready(function () {
-      $(".button-collapse").sideNav({
-        menuWidth: 220,
-        closeOnClick: true
+         if (lastId !== id) {
+           lastId = id;
+           menuItems
+           .parent().removeClass("active")
+           .end().filter("[href='#"+id+"']").parent().addClass("active");
+         }                   
+       });
+
+     </script>
+     <script>
+
+       var options = [{selector: '#acc', offset: 200}];
+       Materialize.scrollFire(options);
+
+     </script>
+
+     <script>
+      document.addEventListener("DOMContentLoaded", function(){
+        $('.preloader-background').delay(1700).fadeOut('slow');
+        $('.preloader-wrapper').delay(1700).fadeOut();
       });
-    });
-    $("#js-rotating").Morphext({
-      animation: "fadeIn",
-      separator: ",",
-      speed: 3000
-    });
-  </script>
-  <script>
-    var lastId,
-    topMenu = $("#top-menu"),
-    topMenuHeight = topMenu.outerHeight()+15,
-    menuItems = topMenu.find("a"),
-    scrollItems = menuItems.map(function(){
-      var item = $($(this).attr("href"));
-      if (item.length) { return item; }
-    });
-    menuItems.click(function(e){
-      var href = $(this).attr("href"),
-      offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
-      $('html, body').stop().animate({ 
-        scrollTop: offsetTop
-      }, 300);
-      e.preventDefault();
-    });
-    $(window).scroll(function(){
-     var fromTop = $(this).scrollTop()+topMenuHeight;
-     var cur = scrollItems.map(function(){
-       if ($(this).offset().top < fromTop)
-         return this;
-     });
-     cur = cur[cur.length-1];
-     var id = cur && cur.length ? cur[0].id : "";
-
-     if (lastId !== id) {
-       lastId = id;
-       menuItems
-       .parent().removeClass("active")
-       .end().filter("[href='#"+id+"']").parent().addClass("active");
-     }                   
-   });
-
- </script>
- <script>
-
-   var options = [{selector: '#acc', offset: 200}];
-   Materialize.scrollFire(options);
-
- </script>
-</body>
-</html>
+    </script>
+  </body>
+  </html>
