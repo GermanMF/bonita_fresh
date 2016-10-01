@@ -7619,7 +7619,7 @@ input[type=range]:focus::-ms-fill-upper {
   height: 16px;
   width: 16px;
   margin: 0 12px;
-  background-color: #e0e0e0;
+  background-color: #000000;
   transition: background-color .3s;
   border-radius: 50%;
 }

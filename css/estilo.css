@@ -24,6 +24,10 @@
   bottom: 0;  
 }
 
+.mBot{
+  margin-bottom: 5%;
+}
+
 #fondo{
   background: url(../img/zarzamoras26.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -62,7 +66,11 @@
 }
 
 .cSection{
-  background-color: #71C017;
+  background-color: #538D11;
+}
+
+.cDisplay{
+  background-color: #2088A4;
 }
 
 .pCh{
@@ -213,6 +221,16 @@ p.noPadTop {
     color:#311b92 ;
   }
 
+  .slider .slides li .caption > h3{
+    color: #00bfa5;
+    text-shadow: 1px 1px #ffffff;
+  }
+
+  .slider .slides li .caption > h5{
+    color: #00bfa5;
+    text-shadow: 1px 1px #000000;
+  }
+
   .tshadow{
     text-shadow: 1px 1px #FFDC00, -1px -1px #ffea00;
   }
@@ -237,17 +255,25 @@ p.noPadTop {
     height: 100%;
     width: 25%;
   }
-  .mtop{
-    margin-top: 1.5%;
+  .mTop{
+    margin-top: 2%;
   }
   
+  .mTop2{
+    margin-top: 7%;
+  }
+
+  .mLeft{
+    margin-left: 10%;
+  }
+
   .pChMed{
     padding-bottom: 5%;
   }
 
   .mtitle{
     margin-top: 15%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
   }
 
   .timg{
@@ -296,6 +322,10 @@ p.noPadTop {
   }
 
   @media (min-width:320px) { 
+
+    .mLeft{
+      margin-left: 0%;
+    }
 
     .timg{
       width: 130px;
@@ -435,11 +465,16 @@ p.noPadTop {
     padding-left: 15%;
   }
 
+  .mLeft{
+    margin-left: 10%;
+  }
+
+
 }
 @media (min-width:1281px) {
 
   .cSection{
-    background-color: #0B714F;
+    background-color: #0C7E58;
   }
 
   .fbig{
