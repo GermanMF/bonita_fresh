@@ -31,7 +31,19 @@
   width: 100%;
   z-index: -3;    
 }
-
+.iSeccion1{
+  background: url(../img/zarzamora26.jpg) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  z-index: -3;
+}
+.iSeccion2{
+  background: url(../img/zarzamora36.jpg) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index:-3;
+}
 .circle {
 
   list-style-type: disc;
@@ -41,19 +53,29 @@
   padding-top: 2%;
 }
 
+.cTitle{
+  color: #FFF01F;
+}
+
+.color{
+  background-color: rgb(160,67,106);
+}
+
+.cSection{
+  background-color: #71C017;
+}
+
+.pCh{
+  padding-top: 2%;
+}
+
 .circle > li > p{
  padding-top: 0%;
- font-size: 16px;
 }
 
 
 
-.iSeccion1{
-  background: url(../img/zarzamora26.jpg) no-repeat center center fixed;
-  background-size: cover;
-  width: 100%;
-  z-index: -3;
-}
+
 
 .select.active > a{
   color: #311b92!important;
@@ -301,6 +323,10 @@ p.noPadTop {
       margin-top: -8%;
     }
 
+    .mTopZ{
+      margin-top: 0;
+    }
+
     .mImage{
       width: 220%;
     }
@@ -411,6 +437,11 @@ p.noPadTop {
 
 }
 @media (min-width:1281px) {
+
+  .cSection{
+    background-color: #0B714F;
+  }
+
   .fbig{
     font-size: 200%;
   }
