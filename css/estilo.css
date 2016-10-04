@@ -24,8 +24,28 @@
   bottom: 0;  
 }
 
+
 .mBot{
-  margin-bottom: 5%;
+  margin-bottom: 3%;
+}
+
+.mBotZ{
+  margin-bottom: 0;
+}
+
+.pFooter{
+  font-size: 80%;
+}
+
+#language{
+  top:0;
+  right: 0;
+  position: fixed !important;
+  z-index: 999;
+}
+
+.navbar-fixed{
+  z-index: 998;
 }
 
 #fondo{
@@ -41,24 +61,38 @@
   width: 100%;
   z-index: -3;
 }
-.iSeccion2{
-  background: url(../img/zarzamora36.jpg) no-repeat center center fixed;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  z-index:-3;
-}
-.circle {
 
-  list-style-type: disc;
+.iContainer{
+  background: #bdbdbd;
+  position: relative;
+  transform: skewY(-2deg);
+  transform-origin: top left;
 }
 
-.circle > li > .padMas{
-  padding-top: 2%;
+.sSkewPos{
+  transform: skewY(2deg);
+  height: 100%;
 }
 
-.cTitle{
-  color: #FFF01F;
+.sExpand{
+  height: 100%;
+  /* bottom: -10%;*/
+}
+
+.nColor > a{
+  color: #ffffff!important;
+}
+
+.nColor > a:hover{
+  color: #538D11!important;
+}
+
+.cSection2{
+  background-color: #f5f5f5;
+}
+
+.cForm{
+  background-color: #eeeeee;
 }
 
 .color{
@@ -73,20 +107,57 @@
   background-color: #2088A4;
 }
 
-.pCh{
-  padding-top: 2%;
-}
-
-.circle > li > p{
- padding-top: 0%;
+.pFooter{
+  padding-top: 8%;
+  padding-bottom: 2%;
 }
 
 
 
+/*.iSeccion2{
+  background: url(../img/zarzamora36.jpg) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index:-3;
+  }*/
+  .circle {
+
+    list-style-type: disc;
+  }
+
+  .circle > li > .padMas{
+    padding-top: 2%;
+  }
+
+  .cTitle{
+    color: #FFF01F;
+  }
+
+  .cTitle2{
+    color:#87A890;
+  }
+
+
+  .pCh{
+    padding-top: 2%;
+  }
+
+  .circle > li > p{
+   padding-top: 0%;
+ }
+
+ .google {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
 
 
 .select.active > a{
   color: #311b92!important;
+  text-shadow: 1px 1px #ffea00;
 }
 
 
@@ -95,6 +166,10 @@ div.row.container.grey.lighten-2{
 }
 
 .row.container.abajo {
+  margin-bottom: 0;
+}
+
+form > .row{
   margin-bottom: 0;
 }
 
@@ -193,6 +268,55 @@ p.noPadTop {
     /*text-justify:inter-word;*/
   }
 
+  .collapsible-body p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  p.pBoth.calign{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+  /*red social*/
+
+  .social {
+    border-radius: 30px;
+    position: relative;
+    width: 150px;
+    height: 32px;
+    box-shadow: inset -1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+  }
+
+
+
+  .social span {
+    font-size: 12px;
+    color: #fff;
+    line-height: 30px;
+    display: block;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+    margin-left: 30px;
+    text-align: center;
+    width: 120px;
+  }
+
+  .social .button {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+  }
+
+  #facebook.social {
+    background: #354970;
+  }
+
+  #facebook .button {
+    background: #fff url(http://i83.photobucket.com/albums/j295/woratana/facebook.png) 5px 5px no-repeat;
+    border: 1px solid #354970;
+  }
 
 
   .side-nav >li > a{
@@ -201,9 +325,11 @@ p.noPadTop {
 
   li > a:hover{
     color:#311b92!important;
+    text-shadow: 1px 1px #ffea00 ;
   }
   li > a{
-    color:#2e7d32!important;
+    text-shadow:1px 1px #000000;
+    color:#ffea00!important;
     font-weight: bold;
     /*font-size: 200%;*/
   }
@@ -277,7 +403,7 @@ p.noPadTop {
   }
 
   .timg{
-    width: 20%;
+    width: 25%;
     
   }
 
@@ -286,6 +412,10 @@ p.noPadTop {
     padding-left: 15%;
   }
 
+  .pSidesForm{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
   p.col.l12.pChMed.pText {
     padding-left: 7%;
     padding-right: 7%;
@@ -308,6 +438,10 @@ p.noPadTop {
     padding-bottom: 5%;
   }
 
+  .pTopMed{
+    padding-top: 5%;
+  }
+
   .col.s12.pMed {
     padding-bottom: 10%;
   }
@@ -323,12 +457,16 @@ p.noPadTop {
 
   @media (min-width:320px) { 
 
+    #language{
+      display: none;
+    }
+
     .mLeft{
       margin-left: 0%;
     }
 
     .timg{
-      width: 130px;
+      width: 100px;
     }
     .fbig{
       font-size: 100%;
@@ -364,10 +502,19 @@ p.noPadTop {
       width: 100%;
     }
 
+    .pTopMed{
+      padding-top: 10%;
+    }
+
+    .pSidesForm{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
   }
   @media (min-width:481px) { 
     .timg{
-     width: 150px;
+     width: 100px;
    }
    .fbig{
     font-size: 120%;
@@ -389,7 +536,7 @@ p.noPadTop {
 }
 @media (min-width:641px) { 
   .timg{
-    width: 180px;
+    width: 150px;
   }
   .fbig{
     font-size: 140%;
@@ -411,7 +558,7 @@ p.noPadTop {
 }
 @media (min-width:961px) {
   .timg{
-    width: 220px;
+    width: 190px;
   }
   .fbig{
     font-size: 160%;
@@ -438,8 +585,11 @@ p.noPadTop {
 
 }
 @media (min-width:1024px) { 
+  #language{
+    display: inherit;
+  }
   .timg{
-    width: 240px;
+    width: 210px;
   }
   .fcenter{
     padding-top: 5%;
@@ -454,19 +604,23 @@ p.noPadTop {
     padding-left: 10%;
   }
   .timg{
-    width: 20%;
+    width: 25%;
   }
   .pGdePlus{
     padding-top: 2%; 
   }
 
-  .psides2{
-    padding-right: 15%;
-    padding-left: 15%;
-  }
-
   .mLeft{
     margin-left: 10%;
+  }
+
+  .pSidesForm{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .lRight{
+    right: 50%;
   }
 
 
@@ -508,9 +662,15 @@ p.noPadTop {
     padding-right: 15%;
     padding-left: 15%;
   }
+
+  .pFooter{
+    font-size: 60%;
+  }
+
   p, a{
     font-size: 18px;
   }
+
   .mImage{
     width: 100%;
   }
@@ -557,6 +717,8 @@ p.noPadTop {
     padding-left: 20%;
     padding-right: 20%;
   }
+
+
 
 }
 
