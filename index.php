@@ -318,10 +318,13 @@
               <label for="comments">Comentarios * </label>
             </div>
           </div>
-          <div><label for="campos"> * Campos requeridos</label></div>
+          <div><label for="campos"> * Campos requeridos</label>
+          </div>
+          <div class="center-align">
           <button name="send" class="btn waves-effect waves-light" type="submit" name="send">Enviar
-            <i class="material-icons right">send</i>
-          </button>
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
         </form>
       </div>
     </div>
@@ -391,30 +394,30 @@
  <script src="js/owl.carousel.min.js"></script>
  <script src="js/morphext.js"></script>
  <script src="js/funciones.js"></script>
-<footer class="black white-text pFooter">
- <div class="row">
-   <div class="col l12 s12 m12">
-     <div class="row">
-       <div class="col s6 l6 m6">
-         <div class="row">
-           <div class=" col s12 center-align"><p>Bonita Fresh 2016. <a class="modal-trigger" href="#modal1">Aviso Legal</a>
+ <footer class="black white-text pFooter">
+   <div class="row">
+     <div class="col l12 s12 m12">
+       <div class="row">
+         <div class="col s6 l6 m6">
+           <div class="row">
+             <div class=" col s12 center-align"><p>Bonita Fresh 2016. <a class="modal-trigger" href="#modal1">Aviso Legal</a>
+             </p>
+           </div>
+           <div class="col s12 center-align"><p>Sitio web desarrollado por <a href="https://www.facebook.com/german.martinezfragoso">Germán Martínez</a>
            </p>
          </div>
-         <div class="col s12 center-align"><p>Sitio web desarrollado por <a href="https://www.facebook.com/german.martinezfragoso">Germán Martínez</a>
-         </p>
        </div>
      </div>
-   </div>
-   <div class="col s6 l6 m6">
-     <div class="row center-align">
-      <div class="col s5 l2 m2 nColor"><a href="#somos">Somos</a> </div>
-      <div class="col s5 l2 m2 nColor"><a href="#certificacion">Certificaciones</a> </div>
-      <div class="col s5 l2 m2 nColor"><a href="#historia">Historia</a> </div>
-      <div class="col s5 l2 m2 nColor"><a href="#producto">Producto</a> </div>
-      <div class="col s5 l2 m2 nColor"><a href="#contacto">Contacto</a></div>
+     <div class="col s6 l6 m6">
+       <div class="row center-align">
+        <div class="col s5 l2 m2 nColor"><a href="#somos">Somos</a> </div>
+        <div class="col s5 l2 m2 nColor"><a href="#certificacion">Certificaciones</a> </div>
+        <div class="col s5 l2 m2 nColor"><a href="#historia">Historia</a> </div>
+        <div class="col s5 l2 m2 nColor"><a href="#producto">Producto</a> </div>
+        <div class="col s5 l2 m2 nColor"><a href="#contacto">Contacto</a></div>
+      </div>
     </div>
   </div>
-</div>
 </div>
 </div>
 </div>
