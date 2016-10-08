@@ -9,6 +9,7 @@
   <meta name="description" content="Es una empresa dedicada a la producción, compra y exportación de zarzamora al mercado de Estados Unidos de Norteamérica, envasada en cajas de plástico de 6 y 12 onzas.">
   <meta name="twitter:image:src" content="http://bonita.magicpets.site11.com/img/bonita.png">
   <meta property="og:image" content="http://bonita.magicpets.site11.com/img/bonita.png"/>
+  <link rel="alternate" hreflang="en" href="en" />
   <title>Bonita Fresh</title>
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.css">
@@ -17,7 +18,6 @@
   <link rel="stylesheet" href="css/material.css">
   <link rel="stylesheet" href="css/materialize.css">
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
-  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body class="cSection2">
   <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
@@ -82,7 +82,7 @@
   </div>
   <!-- Termina el menu -->
   <!-- Inicia Rotación de palabras -->
-  <div class="flex ccont hcont ctext"><h1  class="tshadow tcursiva"><b id="js-rotating" class="fbig">ATRÉVETE,DISFRUTA,VIVE</b></h1></div>
+  <div class="flex ccont hcont ctext" ><h1  class="tshadow tcursiva"><b id="js-rotating" class="fbig">Atrévete,Disfruta,Vive</b></h1></div>
   <!-- Termina rotación de paabras -->
 </section>
 <!-- Termina sección de inicio -->
@@ -219,24 +219,31 @@
           <div class="slider">
             <ul class="slides">
               <li>
-                <img class="op90" data-caption="Las mejores zarzamoras producidas son en Bonita Fresh." src="img/1.jpg"> 
+                <img class="op90" src="img/1.jpg"> 
                 <div class="caption right-align">
                   <h3>Deliciosa</h3>
                   <h5 class="light grey-text text-lighten-3">Pruebala y sorprendete.</h5>
                 </div>
               </li>
               <li>
-                <img class="op90" data-caption="Producimos, comercializamos y exportamos zarzamora de la variedad Tuppy." src="img/2.jpg">
+                <img class="op90" src="img/2.jpg">
                 <div class="caption left-align">
                   <h3>Variedad Tuppy</h3>
                   <h5 class="light grey-text text-lighten-3">Producimos, comercializamos y exportamos.</h5>
                 </div>
               </li>
               <li>
-                <img class="op90" data-caption="Calidad de exportación garantizada" src="img/3.jpg"> 
+                <img class="op90" src="img/3.jpg"> 
                 <div class="caption center-align">
                   <h3>Calidad</h3>
                   <h5 class="light grey-text text-lighten-3">Un sabor inigualable.</h5>
+                </div>
+              </li>
+              <li>
+                <img class="op90" src="img/4.jpg"> 
+                <div class="caption right-align">
+                  <h3>Lo mejor</h3>
+                  <h5 class="light grey-text text-lighten-3">Nuestros clientes simplemente lo merecen.</h5>
                 </div>
               </li>
             </ul>
@@ -400,21 +407,21 @@
        <div class="row">
          <div class="col s6 l6 m6">
            <div class="row">
-             <div class=" col s12 center-align"><p>Bonita Fresh 2016. <a class="modal-trigger" href="#modal1">Aviso Legal</a>
+             <div class=" col s12 center-align"><p style="font-size: 90%">Bonita Fresh 2016. <a class="modal-trigger" href="#modal1">Aviso Legal</a>
              </p>
            </div>
-           <div class="col s12 center-align"><p>Sitio web desarrollado por <a href="https://www.facebook.com/german.martinezfragoso">Germán Martínez</a>
+           <div class="col s12 center-align"><p style="font-size: 90%">Sitio web desarrollado por <a href="https://www.facebook.com/german.martinezfragoso">Germán Martínez</a>
            </p>
          </div>
        </div>
      </div>
      <div class="col s6 l6 m6">
        <div class="row center-align">
-        <div class="col s5 l2 m2 nColor"><a href="#somos">Somos</a> </div>
-        <div class="col s5 l2 m2 nColor"><a href="#certificacion">Certificaciones</a> </div>
-        <div class="col s5 l2 m2 nColor"><a href="#historia">Historia</a> </div>
-        <div class="col s5 l2 m2 nColor"><a href="#producto">Producto</a> </div>
-        <div class="col s5 l2 m2 nColor"><a href="#contacto">Contacto</a></div>
+        <div class="col s5 l2 m3 nColor"><a href="#somos">Somos</a> </div>
+        <div class="col s5 l3 m4 nColor"><a href="#certificacion">Certificaciones</a> </div>
+        <div class="col s5 l3 m4 nColor"><a href="#historia">Historia</a> </div>
+        <div class="col s5 l2 m3 nColor"><a href="#producto">Producto</a> </div>
+        <div class="col s5 l2 m3 nColor"><a href="#contacto">Contacto</a></div>
       </div>
     </div>
   </div>

@@ -9,6 +9,7 @@
   <meta name="description" content="Es una empresa dedicada a la producción, compra y exportación de zarzamora al mercado de Estados Unidos de Norteamérica, envasada en cajas de plástico de 6 y 12 onzas.">
   <meta name="twitter:image:src" content="http://bonita.magicpets.site11.com/img/bonita.png">
   <meta property="og:image" content="http://bonita.magicpets.site11.com/img/bonita.png"/>
+  <link rel="alternate" hreflang="es" href="../" />
   <title>Bonita Fresh</title>
   <link rel="stylesheet" href="../css/owl.carousel.css">
   <link rel="stylesheet" href="../css/owl.theme.css">
@@ -83,7 +84,7 @@
   </div>
   <!-- Termina el menu -->
   <!-- Inicia Rotación de palabras -->
-  <div class="flex ccont hcont ctext"><h1  class="tshadow tcursiva"><b id="js-rotating" class="fbig">DARE,ENJOY,LIVE</b></h1></div>
+  <div class="flex ccont hcont ctext"><h1  class="tshadow tcursiva"><b id="js-rotating" class="fbig">Dare,Enjoy,Live</b></h1></div>
   <!-- Termina rotación de paabras -->
 </section>
 <!-- Termina sección de inicio -->
@@ -409,10 +410,10 @@
      <div class="row">
        <div class="col s6 l6 m6">
          <div class="row">
-           <div class=" col s12 center-align"><p>Bonita Fresh 2016. <a class="modal-trigger" href="#modal1">Legal Notice</a>
+           <div class=" col s12 center-align"><p style="font-size: 90%">Bonita Fresh 2016. <a class="modal-trigger" href="#modal1">Legal Notice</a>
            </p>
          </div>
-         <div class="col s12 center-align"><p>Website developed by <a href="https://www.facebook.com/german.martinezfragoso">Germán Martínez</a>
+         <div class="col s12 center-align"><p style="font-size: 90%">Website developed by <a href="https://www.facebook.com/german.martinezfragoso">Germán Martínez</a>
          </p>
        </div>
      </div>
