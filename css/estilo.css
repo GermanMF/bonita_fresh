@@ -44,9 +44,7 @@
   z-index: 998;
 }
 
-
-
-#fondo{
+.fondo{
   background: url(../img/zarzamoras26.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
@@ -70,6 +68,10 @@
 .sSkewPos{
   transform: skewY(2deg);
   height: 100%;
+}
+
+.maps iframe{
+  pointer-events: none;
 }
 
 .sExpand{
@@ -106,6 +108,7 @@
 }
 
 .pFooter{
+  background-color: #333;
   padding-top: 8%;
   padding-bottom: 2%;
 }
@@ -136,6 +139,9 @@
     color:#87A890;
   }
 
+  .pTopMap{
+    padding-top: 5%;
+  }
 
   .pCh{
     padding-top: 2%;
@@ -428,6 +434,10 @@ p.noPadTop {
   .pGde{
     padding-top: 20%;
   }
+  
+  .pMedSec{
+    padding-bottom: 10%;
+  }
 
   .pGdePlus{
     padding-top: 20%; 
@@ -441,6 +451,10 @@ p.noPadTop {
     padding-top: 5%;
   }
 
+  .pTopSec{
+    padding-top: 5%;
+  }
+  
   .col.s12.pMed {
     padding-bottom: 10%;
   }
@@ -620,6 +634,7 @@ p.noPadTop {
 
   .lRight{
     right: 50%;
+    z-index: -100;
   }
 
 

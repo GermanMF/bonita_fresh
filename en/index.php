@@ -45,76 +45,154 @@
  </div>
 
  <!-- Inicia Sección de inicio -->
- <section  id="fondo">
+ <section  id="inicio" class="fondo">
   <a name="inicio"></a>
   <!-- Menu -->
   <div class="navbar-fixed">  
     <nav class="transparent no-shadow">
       <div class="nav-wrapper container">
-        <a href="#inicio" class="brand-logo lRight" ><img id="bonita" class="timg mtop wImg" src="../img/bonita2.png" alt="Las mejores zarzamoras del mundo."/></a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
-        <ul class="right hide-on-med-and-down" id="top-menu">
-          <li><div class="divider"></div></li>
-          <!-- <li><a href="#inicio">Inicio</a></li> -->
-          <li class="select"><a href="#somos">About</a></li>
-          <li class="select"><a href="#certificacion">Certification</a></li>
-          <li class="select"><a href="#historia">History</a></li>
-          <li class="select"><a href="#producto">Product</a></li>
-          <li class="select"><a href="#contacto">Contact us</a></li>
-
-        </ul>
-        <ul class="side-nav green darken-3 yellow-text text-accent-3" id="mobile-demo">
-          <li class="deep-purple darken-3 row">
-            <div class="flex fright">
-              <p class=""></p>
-              <b class="">MENU</b> <i class="material-icons white-text">cancel</i> 
-            </div>
-          </li>
-          <li><a href="#somos">About</a></li>
-          <li><a href="#certificacion">Certification</a></li>
-          <li><a href="#historia">History</a></li>
-          <li><a href="#producto">Product</a></li>
-          <li><a href="#contacto">Contact us</a></li>
+        <a class="brand-logo lRight" ><img id="bonita" class="timg mtop wImg" src="../img/bonita2.png" alt="Las mejores zarzamoras del mundo."/></a>
+        <a href="#" data-activates="sidenav" class="button-collapse"><i class="material-icons black-text">
+          menu
+        </i>
+      </a>
+      <ul class="right hide-on-med-and-down" id="top-menu">
+        <li>
           <div class="divider"></div>
-          <p class="center-align">Lenguaje</p>
-          <li class="center-align"><a href="../">Español</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <!-- Termina el menu -->
-  <!-- Inicia Rotación de palabras -->
-  <div class="flex ccont hcont ctext"><h1  class="tshadow tcursiva"><b id="js-rotating" class="fbig">Dare,Enjoy,Live</b></h1></div>
-  <!-- Termina rotación de paabras -->
+        </li>
+        <li class="select">
+          <a href="#somos">
+            About
+          </a>
+        </li>
+        <li class="select">
+          <a href="#certificacion">
+            Certification
+          </a>
+        </li>
+        <li class="select">
+          <a href="#historia">
+            History
+          </a>
+        </li>
+        <li class="select">
+          <a href="#producto">
+            Product
+          </a>
+        </li>
+        <li class="select">
+          <a href="#contacto">
+            Contact us
+          </a>
+        </li>
+      </ul>
+      <ul class="side-nav green darken-3 yellow-text text-accent-3" id="sidenav">
+        <li class="deep-purple darken-3 row">
+            <b class="col s6 right-align">
+              MENU
+            </b> 
+            <i class="material-icons white-text col s6 center-align">
+              cancel
+            </i> 
+        </li>
+        <li>
+          <a href="#somos">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#certificacion">
+            Certification
+          </a>
+        </li>
+        <li>
+          <a href="#historia">
+            History
+          </a>
+        </li>
+        <li>
+          <a href="#producto">
+            Product
+          </a>
+        </li>
+        <li>
+          <a href="#contacto">
+            Contact us
+          </a>
+        </li>
+        <div class="divider"></div>
+        <p class="center-align">
+          Lenguaje
+        </p>
+        <li class="center-align">
+          <a href="../">
+            Español
+          </a>
+        </li>
+        <div class="divider"></div>
+        <p class="container">Follow us</p>
+        <a href="https://es-la.facebook.com/Bonita-Fresh-1611756292480176/" class="sociallink">
+          <div id="facebook" class="social" style="background-color: rgb(53, 73, 112);">
+            <div class="button" style="left: 0px;"></div>
+            <span style="color: rgb(255, 255, 255);">Facebook</span>
+          </div>
+        </a>
+      </ul>
+    </div>
+  </nav>
+</div>
+<!-- Termina el menu -->
+<!-- Inicia Rotación de palabras -->
+<div class="flex ccont hcont ctext"><h1  class="tshadow tcursiva"><b id="js-rotating" class="fbig">Dare,Enjoy,Live</b></h1></div>
+<!-- Termina rotación de palabras -->
 </section>
 <!-- Termina sección de inicio -->
 <!-- Inicia sección de certificados -->
-<section class="cSection psides pChMed" id="somos"> <a name="somos"></a>
+<section class="cSection psides pMedSec" id="somos"><a name="somos"></a>
   <div class="row container abajo">
     <div class="col s12 l12">
       <h4 class="cTitle fbold calign mtitle ">Who are we?</h4>
     </div>
     <div class="white-text col s6 pMed wMax tjustify">
-      <p class="col l12 pChMed">We are an enterprise dedicated to the production, purchase, and exportation of blackberries to the United States of America market, packaged in plastic boxes of 6 and 12 oz.</p>
-      <p class="col l12 pChMed"> In addition to exports, provides technical advice to producers in the establishment, development, management, production, programming and control of pests and diseases of cultivation.</p>
+      <p class="col l12 pChMed">
+        We are an enterprise dedicated to the production, purchase, and exportation of blackberries to the United States of America market, packaged in plastic boxes of 6 and 12 oz.
+      </p>
+      <p class="col l12 pChMed">
+        In addition to exports, provides technical advice to producers in the establishment, development, management, production, programming and control of pests and diseases of cultivation.
+      </p>
     </div>
     <div class="col s6"><img src="../img/somos.jpg" alt="Equipo de trabajo de Bonita Fresh" class="mLeft mImage pGdePlus materialboxed"/></div>
     <div class="col l12 bResponsive mCh">
-      <p class="calign"><a href="#!" id="bShowDiv" class="mTop2 waves-effect waves-yellow btn-flat  green-text text-lighten-5">More</a></p>
+      <p class="calign">
+        <a href="#!" id="bShowDiv" class="mTop2 waves-effect waves-yellow btn-flat  green-text text-lighten-5">
+          More
+        </a>
+      </p>
       <div class="hid mTop2" id="showDiv">
         <ul class="collapsible popout" data-collapsible="accordion" id="acc">
           <li class="opMenos menuShow">
-            <div class="collapsible-header cDisplay white-text"><i class="material-icons">info</i><p>Know more about us</p></div>
+            <div class="collapsible-header cDisplay white-text">
+              <i class="material-icons">
+                info
+              </i>
+              <p>
+                Know more about us
+              </p>
+            </div>
             <div class="collapsible-body green-text text-lighten-5 ccolor tjustify">
               <p>
                 We have offices for the technical department, administrative department, power station, as well as yard for the reception and loads.
               </p>
-              <p  class="noPadTop">We have a camera of pre-frozen that low temperature at zero degrees Celsius that features also conservation of the fruit for the shipment.
+              <p  class="noPadTop">
+                We have a camera of pre-frozen that low temperature at zero degrees Celsius that features also conservation of the fruit for the shipment.
               </p>
             </div>
           </li>
           <li  class="opMenos menuShow">
-            <div class="collapsible-header cDisplay white-text"><i class="material-icons">zoom_in</i><p>Mission and Vission</p></div>
+            <div class="collapsible-header cDisplay white-text">
+              <i class="material-icons">zoom_in</i>
+              <p>Mission and Vission</p>
+            </div>
             <div class="collapsible-body  green-text text-lighten-5 ccolor tjustify">
               <div class="owl-carousel carrusel1">
                 <div>
@@ -133,7 +211,9 @@
             </div>
           </li>
           <li class="opMenos menuShow">
-            <div class="collapsible-header cDisplay white-text"><i class="material-icons">thumb_up</i><p>Objectives</p></div>
+            <div class="collapsible-header cDisplay white-text"><i class="material-icons">thumb_up</i>
+              <p>Objectives</p>
+            </div>
             <div class="collapsible-body  green-text text-lighten-5 ccolor tjustify">
               <div class="owl-carousel carrusel1">
                 <div>
@@ -176,7 +256,7 @@
   </div>
 </section>
 <section class="iSeccion1 psides" id="certificacion"><a name="certificacion"></a>
-  <div class="row container grey lighten-2">
+  <div class="row container grey lighten-2 pMedSec">
     <div class="col s12 l12">
       <h4 class="fbold calign mtitle purple-text text-darken-3">Standards and certifications</h4>
     </div>
@@ -202,7 +282,7 @@
   </div>
 </section>
 <!-- Termina sección de certificados -->
-<section class="cSection psides mTopNeg" id="historia"> <a name="historia"></a>
+<section class="cSection psides mTopNeg pTopSec pMedSec" id="historia"> <a name="historia"></a>
   <div class="row container">
     <div class="col s12 l12">
       <h4 class=" cTitle fbold calign mtitle">History</h4>
@@ -222,189 +302,184 @@
 </section>
 
 <section class="cSection2 mTopNeg" id="producto"> <a name="producto"></a>
-      <!-- <div class="row container grey lighten-2">
-        <div class="col s12 l12">
-          <h4 class="fbold center-align mtitle purple-text text-darken-3">Nuestro producto</h4> -->
-          <div class="slider">
-            <ul class="slides">
-              <li>
-                <img class="op90" data-caption="Las mejores zarzamoras producidas son en Bonita Fresh." src="../img/1.jpg"> 
-                <div class="caption right-align">
-                  <h3>Delicious</h3>
-                  <h5 class="light grey-text text-lighten-3">Taste and amaze.</h5>
-                </div>
-              </li>
-              <li>
-                <img class="op90" data-caption="Producimos, comercializamos y exportamos zarzamora de la variedad Tuppy." src="../img/2.jpg">
-                <div class="caption left-align">
-                  <h3>Tuppy variety</h3>
-                  <h5 class="light grey-text text-lighten-3">We produce, purchase and export.</h5>
-                </div>
-              </li>
-              <li>
-                <img class="op90" data-caption="Calidad de exportación garantizada" src="../img/3.jpg"> 
-                <div class="caption center-align">
-                  <h3>Quality</h3>
-                  <h5 class="light grey-text text-lighten-3">An incomparable taste.</h5>
-                </div>
-              </li>
-            </ul>
-          </div>
-       <!--  </div>
-     </div> -->
-   </section>
-   <section class="cSection2" id="contacto"> <a name="contacto"></a>
-     <div class="row">
-       <h4 class=" cTitle2 fbold center-align">Contact us</h4>
-       <div class="col s12 m7 l8">
-        <div class="row pSidesForm">
-          <form class="col s12" id="form1" name="form1" method="post">
-            <div class="row">
-              <div class="input-field col s12">
-                <input id="Cname" name="Cname" type="text" class="validate" required>
-                <label for="Cname">Full name * </label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col s6">
-                <div class="center-align">
-                  <h5>Country</h5>
-                </div>
-                <div class="row">
-                  <div class="col l6 m6 s12">
-                    <p>
-                      <input name="pais" type="radio" value="mexico" id="mexico"/>
-                      <label for="mexico">Mexico</label>
-                    </p>
-                  </div>
-                  <div class="col l6 m6 s12">
-                    <p>
-                      <input name="pais" type="radio" value="us" id="us" required/>
-                      <label for="us">USA</label>
-                    </p>
-                  </div>
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img class="op90" src="../img/1.jpg"> 
+        <div class="caption right-align">
+          <h3>Delicious</h3>
+          <h5 class="light grey-text text-lighten-3">Taste and amaze.</h5>
+        </div>
+      </li>
+      <li>
+        <img class="op90" src="../img/2.jpg">
+        <div class="caption left-align">
+          <h3>Tuppy variety</h3>
+          <h5 class="light grey-text text-lighten-3">We produce, purchase and export.</h5>
+        </div>
+      </li>
+      <li>
+        <img class="op90" src="../img/3.jpg"> 
+        <div class="caption center-align">
+          <h3>Quality</h3>
+          <h5 class="light grey-text text-lighten-3">An incomparable taste.</h5>
+        </div>
+      </li>
+      <li>
+        <img class="op90" src="../img/4.jpg"> 
+        <div class="caption right-align">
+          <h3>The best</h3>
+          <h5 class="light grey-text text-lighten-3">Our customers always deserve it.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
 
-                </div>
-                <div class="row">
-                  <p class="col s12">
-                    <input name="pais" type="radio" value="no" id="otro"/>
-                    <label for="otro">Other</label>
-                  </p>
-                </div>
-              </div>
-              <div class="input-field col s6">
-                <select id="estado" name="estado" required disabled>
-                </select>
-                <label>State * </label>
-              </div>
+<section class="cSection2 pTopSec" id="contacto"> <a name="contacto"></a>
+ <div class="row">
+   <h4 class=" cTitle2 fbold center-align">Contact us</h4>
+   <div class="col s12 m7 l8">
+    <div class="row pSidesForm">
+      <form class="col s12" id="form1" name="form1" method="post">
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="Cname" name="Cname" type="text" class="validate" required>
+            <label for="Cname">Full name * </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s6">
+            <div class="center-align">
+              <h5>Country</h5>
             </div>
             <div class="row">
-             <div class="input-field col s6">
-               <select id="ciudad" name="ciudad" required disabled>
-               </select>
-               <label>City * </label>
-             </div>
-             <div class=" input-field col s6">
-               <input class="validate" type="text" id="zip" name="zip" pattern="[0-9]{5}" title="Código Postal de 5 dígitos" maxlength="5" required />
-               <label>ZIP Code * </label>
-             </div>
-           </div>
-           <div class="row">
-            <div class="input-field col s10 l6">
-              <input id="email" name="email" type="email" class="validate" required>
-              <label for="email">e-mail * </label>
+              <div class="col l6 m6 s12">
+                <p>
+                  <input name="pais" type="radio" value="mexico" id="mexico"/>
+                  <label for="mexico">Mexico</label>
+                </p>
+              </div>
+              <div class="col l6 m6 s12">
+                <p>
+                  <input name="pais" type="radio" value="us" id="us" required/>
+                  <label for="us">USA</label>
+                </p>
+              </div>
+
             </div>
-            <div class="input-field col s10 l6">
-              <input id="tel" name="tel" type="tel" class="validate">
-              <label for="icon_telephone">Telephone</label>
-            </div>
-          </div>
-          <div class="row">
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <textarea id="comments" name="comments" class="materialize-textarea" required></textarea>
-              <label for="comments">Comments * </label>
+            <div class="row">
+              <p class="col s12">
+                <input name="pais" type="radio" value="no" id="otro"/>
+                <label for="otro">Other</label>
+              </p>
             </div>
           </div>
-          <div><label for="campos"> * Required fields</label></div>
-          <div class="center-align">
-            <button name="send" class="btn waves-effect waves-light" type="submit" name="send">Send
-              <i class="material-icons right">send</i>
-            </button>
+          <div class="input-field col s6">
+            <select id="estado" name="estado" required disabled>
+            </select>
+            <label>State * </label>
           </div>
-        </form>
+        </div>
+        <div class="row">
+         <div class="input-field col s6">
+           <select id="ciudad" name="ciudad" required disabled>
+           </select>
+           <label>City * </label>
+         </div>
+         <div class=" input-field col s6">
+           <input class="validate" type="text" id="zip" name="zip" pattern="[0-9]{5}" title="Código Postal de 5 dígitos" maxlength="5" required />
+           <label>ZIP Code * </label>
+         </div>
+       </div>
+       <div class="row">
+        <div class="input-field col s10 l6">
+          <input id="email" name="email" type="email" class="validate" required>
+          <label for="email">e-mail * </label>
+        </div>
+        <div class="input-field col s10 l6">
+          <input id="tel" name="tel" type="tel" class="validate">
+          <label for="icon_telephone">Telephone</label>
+        </div>
       </div>
-    </div>
-    <div class="col s12 m5 l4">
       <div class="row">
-        <div class="col s12 m12 l12">
-          <h5>Address</h5>
-        </div>
-        <div class="row">
-          <div class="col s12 m12 l12">
-            <p>Libramiento Oriente, 21 de Noviembre, Tacámbaro de Codallos, Mich.</p>
-          </div>
-        </div>
-        <div class="divider"></div>
-        <div class="col s12 m12 l12">
-          <h5>Telephone</h5>
-        </div>
-        <div class="row">
-          <div class="col s12 m12 l12">
-            <p>52-4595961563</p>
-          </div>
-        </div>
-        <div class="divider"></div>
-        <div class="col s12 m12 l12">
-          <h5>Fax</h5>
-        </div>
-        <div class="row">
-          <div class="col s12 m12 l12">
-            <p> 52-4595961563</p>
-          </div>
-        </div>
-        <div class="divider"></div>
-        <div class="col s12 m12 l12">
-          <h5>e-mail</h5>
-        </div>
-        <div class="row">
-          <div class="col s12 m12 l12">
-            <p >ventas@bonitafresh.com</p>
-          </div>
-        </div>
-        <div class="divider"></div>
-        <div class="col s12 m12 l12">
-          <h5>Follow us</h5>
-        </div>
-        <div class="row">
-          <div class="col s12 m12 l12">
-            <a href="https://es-la.facebook.com/Bonita-Fresh-1611756292480176/" class="sociallink">
-              <div id="facebook" class="social" style="background-color: rgb(53, 73, 112);">
-                <div class="button" style="left: 0px;"></div>
-                <span style="color: rgb(255, 255, 255); margin-left: 30px;"> Facebook</span>
-              </div>
-            </a>
-
-          </div>
-          <div class="divider"></div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="comments" name="comments" class="materialize-textarea" required></textarea>
+          <label for="comments">Comments * </label>
         </div>
       </div>
+      <div><label for="campos"> * Required fields</label></div>
+      <div class="center-align">
+        <button name="send" class="btn waves-effect waves-light" type="submit" name="send">Send
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="col s12 m5 l4">
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <h5>Address</h5>
     </div>
-    <div class="google">
-      <div class="sExpand">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7533.891681155065!2d-101.452102!3d19.241192!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xef14b1df5951ff9e!2sBonita+Fresh!5e0!3m2!1ses!2smx!4v1475522344084" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-     </div>
-   </div>
- </section>
- <!-- Importación y creación de scripts -->
- <script src="../js/jquery-3.1.1.js"></script>
- <script src="../js/materialize.min.js"></script>
- <script src="../js/owl.carousel.min.js"></script>
- <script src="../js/morphext.js"></script>
- <script src="../js/funcionesEn.js"></script>
-
-<footer class="black white-text pFooter">
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <p>Libramiento Oriente, 21 de Noviembre, Tacámbaro de Codallos, Mich.</p>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="col s12 m12 l12">
+      <h5>Telephone</h5>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <p>+52 459 596 1563</p>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="col s12 m12 l12">
+      <h5>Fax</h5>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <p>+52 459 596 1563</p>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="col s12 m12 l12">
+      <h5>e-mail</h5>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <p >ventas@bonitafresh.com</p>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="col s12 m12 l12">
+      <h5>Follow us</h5>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <a href="https://es-la.facebook.com/Bonita-Fresh-1611756292480176/" class="sociallink">
+          <div id="facebook" class="social" style="background-color: rgb(53, 73, 112);">
+            <div class="button" style="left: 0px;"></div>
+            <span style="color: rgb(255, 255, 255); margin-left: 30px;"> Facebook</span>
+          </div>
+        </a>
+      </div>
+      <div class="divider"></div>
+    </div>
+  </div>
+</div>
+<div class="google pTopMap">
+  <div class="sExpand maps">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7533.891681155065!2d-101.452102!3d19.241192!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xef14b1df5951ff9e!2sBonita+Fresh!5e0!3m2!1ses!2smx!4v1475522344084" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+ </div>
+</div>
+</section>
+<footer class="black white-text pFooter mTopNeg">
  <div class="row">
    <div class="col l12 s12 m12">
      <div class="row">
@@ -420,11 +495,11 @@
    </div>
    <div class="col s6 l6 m6">
      <div class="row center-align">
-      <div class="col s5 l2 m2 nColor"><a href="#somos">About</a> </div>
-      <div class="col s5 l2 m2 nColor"><a href="#certificacion">Certifications</a> </div>
-      <div class="col s5 l2 m2 nColor"><a href="#historia">History</a> </div>
-      <div class="col s5 l2 m2 nColor"><a href="#producto">Product</a> </div>
-      <div class="col s5 l2 m2 nColor"><a href="#contacto">Contact us</a></div>
+      <div class="col s5 l2 m3 nColor"><a href="#somos">About</a> </div>
+      <div class="col s5 l3 m4 nColor"><a href="#certificacion">Certifications</a> </div>
+      <div class="col s5 l3 m4 nColor"><a href="#historia">History</a> </div>
+      <div class="col s5 l2 m3 nColor"><a href="#producto">Product</a> </div>
+      <div class="col s5 l2 m3 nColor"><a href="#contacto">Contact us</a></div>
     </div>
   </div>
 </div>
@@ -445,5 +520,20 @@
  </div>
 </div>
 </footer>
+<!-- Importación y creación de scripts -->
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../js/materialize.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/morphext.js"></script>
+<script src="../js/funcionesEn.js"></script>
+<script>
+ $('.maps').click(function () {
+  $('.maps iframe').css("pointer-events", "auto");
+});
+
+ $( ".maps" ).mouseleave(function() {
+  $('.maps iframe').css("pointer-events", "none"); 
+});
+</script>
 </body>
 </html>
